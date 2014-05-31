@@ -1,4 +1,4 @@
-# merge-defaults
+# partial-apply
 
 Implements a context-free version of `Function.prototype.apply` in Node.js/JavaScript.
 
