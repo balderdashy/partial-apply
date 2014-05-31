@@ -34,7 +34,8 @@ $ npm install partial-apply
 var partialApply = require('partial-apply');
 
 function someFn( /* ... */ ) {
-  return partialApply(someOtherFn, arguments);
+  var fnWithArgsPreApplied = partialApply(someOtherFn, arguments);
+  fnWithArgsPreApplied();
 }
 
 ```
